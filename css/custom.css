@@ -1,0 +1,71 @@
+.suggestionsNav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #111;
+	overflow-x: hidden;
+	transition: 0.4s;
+	padding-top: 10px;
+	margin-top: 5%;
+}
+
+.suggestionsNav a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #818181;
+	display: block;
+	transition: 0.4s;
+}
+
+.suggestionsNav a:hover {
+	color: #f1f1f1;
+}
+
+.suggestionsNav .closeNav {
+	position: absolute;
+	top: 15px;
+	right: 0;
+	font-size: 2vw;
+	margin-left: 3%;
+}
+
+#websiteContent {
+	transition: margin-left .5s;
+	padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+	.suggestionsNav {padding-top: 15px;}
+	.suggestionsNav a {font-size: 18px;}
+}
+
+
+/*scrollbar*/
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px grey;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #333333;
+	border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #1a1a1a;
+}
+
+.dropdown-toggle::after{
+	content: none;
+}

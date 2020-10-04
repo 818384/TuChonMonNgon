@@ -595,7 +595,17 @@
 		</div>
 </body>
 
+<script>
+	async function loadJSON(url) {
+		const res = await fetch(url);
+		return await res.json();
+	}
+	
+	var data = loadJSON('./test.json');
+</script>
+
 <script src="js/custom.js" type="text/javascript"></script>
+<script src="./menu.js"></script>
 
 <!-- Core JS Files -->
 <script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>

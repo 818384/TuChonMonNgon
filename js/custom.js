@@ -51,7 +51,7 @@ function bindDataToHTML() {
 	let loadProducts = data.then(x => {
 		for (var i = 0; i < x.products.length; i++) {
 			mainRow.append('<div class="col-md-3"><div class="card card-product card-plain"><div class="card-image">'
-				+ '<a href="#">'
+				+ '<a href="#" data-toggle="modal" data-target="#detailedDishes">'
 				+ '<img src="' + x.products[i].img + '" alt="Rounded Image" class="img-rounded img-responsive">'
 				+ '</a>'
 				+ '<div class="card-body text-center">'

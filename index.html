@@ -64,17 +64,36 @@
 						</ul>
 					</li>
 				</ul> -->
-				<form class="form-inline ml-auto">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<form class="form-inline">
+							<input class="form-control mr-sm-2 no-border" type="text" placeholder="Tìm kiếm">
+							<button class="btn btn-magnify btn-just-icon btn-info">
+								<i class="nc-icon nc-zoom-split"></i>
+							</button>
+						</form>
+					</li>
+					<li class="nav-item">
+						<a class="navbar-brand" href="#" >Nguyễn A</a>
+					</li>
+					<li class="nav-item">
+						<button type="button" class="btn btn-link btn-danger" style="margin: 0; padding: 0;">
+							<i class="fa fa-shopping-cart shopping-cart-plus-product" style="font-size: 2vw; color: red;"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<h3 class="d-inline-block" id="cartAmount">5</h3>
+						</button>
+					</li>
+				</ul>
+				<!-- <form class="form-inline ml-auto">
 					<input class="form-control mr-sm-2 no-border" type="text" placeholder="Tìm kiếm">
 					<button class="btn btn-magnify btn-just-icon btn-info">
 						<i class="nc-icon nc-zoom-split"></i>
 					</button>
 				</form>
 				<a class="navbar-brand" href="#" >Nguyễn A</a>
-				<button type="button" class="btn btn-link btn-danger btn-magnify" style="position: fixed; padding-bottom: 3.5%; right: 7%;">
+				<button type="button" class="btn btn-link btn-danger btn-magnify" style="padding-bottom: 3.5%; right: 7%;">
 					<i class="fa fa-shopping-cart shopping-cart-plus-product" style="font-size: 2vw;"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 					<h3 class="d-inline-block">5</h3>
-				</button>
+				</button> -->
 			</div>
 		</div>
 	</nav>
@@ -208,7 +227,7 @@
 				<!-- <div class="col-md-3">
 					<div class="card card-product card-plain">
 						<div class="card-image">
-							<a href="#">
+							<a href="#" data-toggle="modal" data-target="#detailedDishes">
 								<img src="img/product_1.jpg" alt="Rounded Image" class="img-rounded img-responsive">
 							</a>
 							<div class="card-body text-center">
@@ -385,6 +404,175 @@
 			</li>
 		</ul>
 
+	</div>
+
+	<div class="modal fade" id="detailedDishes" tabindex="-1" role="dialog" aria-labelledby="modalDetail" aria-hidden="true">
+		<div class="modal-dialog modal-notice" style="max-width: 65%;">
+			<div class="modal-content">
+				<div class="modal-header no-border-header">
+					<h3 class="modal-title" id="modalDetail"><strong>Đùi gà Góc Tư</strong></h3>
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-md-7">
+							<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+								<div class="pswp__bg"></div>
+								<div class="pswp__scroll-wrap">
+									<div class="pswp__container">
+										<div class="pswp__item"></div>
+										<div class="pswp__item"></div>
+										<div class="pswp__item"></div>
+									</div>
+
+									<div class="pswp__ui pswp__ui--hidden">
+									<div class="pswp__top-bar">
+
+									<div class="pswp__counter"></div>
+									<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+									<button class="pswp__button pswp__button--share" title="Share"></button>
+									<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+									<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+									<div class="pswp__preloader">
+										<div class="pswp__preloader__icn">
+											<div class="pswp__preloader__cut">
+												<div class="pswp__preloader__donut"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+								<div class="pswp__share-tooltip"></div>
+								</div>
+
+								<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+								<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+
+								<div class="pswp__caption">
+								<div class="pswp__caption__center"></div>
+								</div>
+								</div>
+								</div>
+							</div>
+
+									
+							<div class="clearfix"></div>
+							<div class="card card-plain">
+								<div class="card-body">
+									<div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+										<div class="row">
+											<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="col-md-12 col-sm-12 gallery-item">
+												<a href="img/item1.jpg" itemprop="contentUrl" data-size="750x1050">
+												<img src="img/item1.jpg" itemprop="thumbnail" alt="Image description" class="vertical-image img-rounded img-responsive" />
+												</a>
+											</figure>
+											<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="col-md-4 col-sm-5 gallery-item">
+												<a href="img/item2.jpg" itemprop="contentUrl" data-size="750x1050">
+												<img src="img/item2.jpg" itemprop="thumbnail" alt="Image description" class="vertical-image img-rounded img-responsive" />
+												</a>
+											</figure>
+											<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="col-md-4 col-sm-5 gallery-item">
+												<a href="img/item3.png" itemprop="contentUrl" data-size="750x1050">
+												<img src="img/item3.png" itemprop="thumbnail" alt="Image description" class="vertical-image img-rounded img-responsive" />
+												</a>
+											</figure>
+											<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="col-md-4 col-sm-5 gallery-item">
+												<a href="img/item4.jpg" itemprop="contentUrl" data-size="1050x600">
+												<img src="img/item4.jpg" itemprop="thumbnail" alt="Image description" class="horizontal-image img-rounded img-responsive" />
+												</a>
+											</figure>
+										</div>
+									</div>
+								</div>
+								<h4 class="card-category"><strong>Thông tin sản phẩm:</strong></h4>
+								<div class="card-description">
+									- Đùi gà được lấy từ phần đùi của con gà
+								</div>
+							</div>
+						</div>
+						<div class="col-md-5">
+							<div class="card card-plain">
+								<div class="card-body">
+									<h4 class="card-title text-center"><strong>Đùi gà Góc Tư</strong></h4>
+									<br>
+									<div class="card-description">
+										<h6 class="d-inline-block" >Ngày sản xuất: &nbsp;</h6><p class="d-inline-block">01/08/2020</p>
+										<br>
+										<h6 class="d-inline-block" >Nhà phân phối: &nbsp;</h6><p class="d-inline-block">Gà Phạm Tôn</p>
+										<br>
+										<h6 class="d-inline-block" >Khối lượng: &nbsp;</h6><p class="d-inline-block">300 gram</p>
+										<br>
+										<h6 class="d-inline-block" >Giá: &nbsp;</h6><p class="d-inline-block">15.000 VND</p>
+										<br>
+										<h6 class="d-inline-block" >Đánh giá: &nbsp;</h6>
+										<p class="d-inline-block">
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+										</p>
+										<br>
+										<br>
+										<center>
+											<button type="button" class="btn btn-danger add-to-cart-detail">Thêm giỏ hàng</button>
+										</center>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>'
+					<div class="row">
+						<div class="col-md-12 ml-auto mr-auto">
+							<div class="media-area">
+								<h4>Bình luận:</h4>
+								<div class="media">
+									<a href="#" class="pull-left">
+										<div class="avatar">
+											<img class="media-object" src="img/cmt-ava.jpg">
+										</div>
+									</a>
+									<div class="media-body">
+										<h5 class="media-heading">Ricardo Milos</h5>
+										<div class="pull-right">
+											<h6 class="text-muted">Sep 11, 11:53 AM</h6>
+											<a href="#" class="btn btn-info btn-link pull-right"> <i class="fa fa-reply"></i> Reply</a>
+										</div>
+										<p>Sản phẩm như cái đầu puồi</p>
+										<div class="media-footer">
+											<a href="#" class="btn btn-danger btn-link">
+												<i class="fa fa-thumbs-up" aria-hidden="true"></i> 50
+											</a>
+											<a href="#" class="btn btn-primary btn-link">
+												<i class="fa fa-thumbs-down" aria-hidden="true"></i> 0
+											</a>
+										</div>
+										<div class="media media-post">
+											<a href="#" class="pull-left author">
+												<div class="avatar">
+													<img src="img/cmt-ava2.jpg" class="media-object">
+												</div>
+											</a>
+											<div class="media-body">
+												<textarea class="form-control" placeholder="Write a nice reply or go home..." rows="4" style="resize: none;"></textarea>
+												<div class="media-footer">
+													<a href="#" class="btn btn-info pull-right">Reply</a>
+												</div>
+											</div>
+										</div>
+									</div>	
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary btn-link" data-dismiss="modal">Đóng</button>
+				</div>
+			</div>
+		</div>
 	</div>
 
 	<div class="modal fade" id="MonGa" tabindex="-1" role="dialog" aria-labelledby="nameModal" aria-hidden="true">

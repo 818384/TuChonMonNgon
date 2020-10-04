@@ -69,3 +69,8 @@
 .dropdown-toggle::after{
 	content: none;
 }
+
+.checked {
+	color: orange;
+}
+

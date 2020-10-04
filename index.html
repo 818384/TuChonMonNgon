@@ -16,6 +16,22 @@
 	<script src="js/jquery.min.js" type="text/javascript"></script>
 
 </head>
+<script>
+	async function loadJSON(url) {
+		const res = await fetch(url);
+		return await res.json();
+	}
+	
+	var data = loadJSON('./data.json');
+</script>
+
+<script src="js/custom.js" type="text/javascript">
+	$(document).ready(function() {
+		bindDataToHTML();
+	});
+</script>
+<script src="./menu.js"></script>
+
 <body>
 
 	<nav class="navbar navbar-expand-md bg-success fixed-top">
@@ -188,8 +204,8 @@
 			<h3><strong>Danh sách món ăn</strong></h3>
 			<br>
 			<br>
-			<div class="row">
-				<div class="col-md-3">
+			<div class="row" id="main-product-row">
+				<!-- <div class="col-md-3">
 					<div class="card card-product card-plain">
 						<div class="card-image">
 							<a href="#">
@@ -264,8 +280,12 @@
 							</div>
 						</div>
 					</div>
-				</div>
+				</div> -->
 			</div>
+			<script>
+				bindDataToHTML();
+			</script>
+
 		</div>
 
 		<div id="foodSuggestions" class="suggestionsNav">
@@ -585,18 +605,6 @@
 			</div>
 		</div>
 </body>
-
-<script>
-	async function loadJSON(url) {
-		const res = await fetch(url);
-		return await res.json();
-	}
-	
-	var data = loadJSON('./test.json');
-</script>
-
-<script src="js/custom.js" type="text/javascript"></script>
-<script src="./menu.js"></script>
 
 <!-- Core JS Files -->
 <script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>

@@ -3,22 +3,22 @@
         {
             "name": "Đùi gà góc tư",
             "price": "15000 VND",
-            "img": ""
+            "img": "img/product_1.jpg"
         },
         {
             "name": "Sườn cốt lếch",
             "price": "15000 VND",
-            "img": ""
+            "img": "img/product_2.png"
         },
         {
             "name": "Đùi gà góc tư",
             "price": "15000 VND",
-            "img": ""
+            "img": "img/product_3.png"
         },
         {
             "name": "Đùi gà góc tư",
             "price": "15000 VND",
-            "img": ""
+            "img": "img/product_4.png"
         }
     ]
 }

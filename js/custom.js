@@ -487,31 +487,27 @@ function ChooseDishClick(id){
 
 function addToCartDish(id){
 	data.then(x => {
-		var len = x.cart[0].menu.length + x.cart[0].product.length;
-		var lenPlus = len + 1;
 		for (var i = 0; i < x.menu.length; i++){
 			if (x.menu[i].id == id){
 				x.cart[0].menu.push(x.menu[i]);
 			}
 		}
-		
+		var len = x.cart[0].menu.length + x.cart[0].product.length;
 		console.log(x.cart);
-		document.getElementById('cartAmount').innerText = lenPlus;
+		document.getElementById('cartAmount').innerText = len;
 	});
 }
 
 function addToCart(id){
 	data.then(x => {
-		var len = x.cart[0].menu.length + x.cart[0].product.length;
-		var lenPlus = len + 1;
 		for (var i = 0; i < x.products.length; i++){
 			if (x.products[i].id == id){
 				x.cart[0].product.push(x.products[i]);
 			}
 		}
-		
+		var len = x.cart[0].menu.length + x.cart[0].product.length;
 		console.log(x.cart);
-		document.getElementById('cartAmount').innerText = lenPlus;
+		document.getElementById('cartAmount').innerText = len;
 	});
 }
 
@@ -618,4 +614,11 @@ onReady(function() {
 	});
 });
 
+/*---------------------------------------------------- For GioHang /*----------------------------------------------------*/
+function getAmountForCart(){
+	data.then(x => {
+		var len = x.cart[0].menu.length + x.cart[0].product.length;
+		document.getElementById('cartAmount').innerText = lenPlus;
+	});
+}
 

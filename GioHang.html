@@ -24,33 +24,25 @@
 				<span class="navbar-toggler-bar"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="nav-menu">
-				<ul class="navbar-nav mr-auto">
+				<ul class="navbar-nav ml-auto">
 					<li class="nav-item">
-						<a class="nav-link" href="#paper-kit">Link</a>
+						<form class="form-inline">
+							<input class="form-control mr-sm-2 no-border" type="text" placeholder="Tìm kiếm">
+							<button class="btn btn-magnify btn-just-icon btn-info">
+								<i class="nc-icon nc-zoom-split"></i>
+							</button>
+						</form>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#paper-kit">Link</a>
+						<a class="navbar-brand" href="#" >Nguyễn A</a>
 					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#paper-kit" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-						<ul class="dropdown-menu dropdown-menu-right dropdown-warning">
-							<div class="dropdown-header">Dropdown header</div>
-							<a class="dropdown-item" href="#paper-kit">Action</a>
-							<a class="dropdown-item" href="#paper-kit">Another action</a>
-							<a class="dropdown-item" href="#paper-kit">Something else here</a>
-							<div class="dropdown-divider"></div>
-							<a class="dropdown-item" href="#paper-kit">Separated link</a>
-							<div class="dropdown-divider"></div>
-							<a class="dropdown-item" href="#paper-kit">Another separated link</a>
-						</ul>
+					<li class="nav-item">
+						<button type="button" class="btn btn-link btn-danger fixed-top" style="margin-left: 30%; padding: 0; padding-left: 57%;">
+							<i class="fa fa-shopping-cart shopping-cart-plus-product" style="font-size: 2vw; color: red;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i>
+							<h3 class="d-inline-block" id="cartAmount" style="margin: 0; padding-left: 30%;"></h3>
+						</button>
 					</li>
 				</ul>
-				<form class="form-inline ml-auto">
-					<input class="form-control mr-sm-2 no-border" type="text" placeholder="Search">
-					<button class="btn btn-magnify btn-just-icon btn-info">
-						<i class="nc-icon nc-zoom-split"></i>
-					</button>
-				</form>
 			</div>
 		</div>
 	</nav>
@@ -204,7 +196,7 @@
 											75.000 <small>VND</small>
 										</td>
 										<td class="text-center">
-											<button type="button" data-toggle="tooltip" data-placement="top" title data-original-title="Làm mới giỏ hàng" class="btn btn-danger btn-sm" style="font-size: 1vw">Làm mới&nbsp;<i class="fa fa-refresh fa-spin"></i></button>
+											<button type="button" data-toggle="tooltip" data-placement="top" title data-original-title="Hủy món" class="btn btn-danger btn-sm" style="font-size: 1vw">Hủy món này</button>
 										</td>
 									</tr>
 								</tbody>

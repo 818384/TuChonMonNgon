@@ -487,11 +487,11 @@ function ChooseDishClick(id){
 
 function addToCartDish(id){
 	data.then(x => {
-		var len = x.cart.length;
+		var len = x.cart[0].menu.length + x.cart[0].product.length;
 		var lenPlus = len + 1;
 		for (var i = 0; i < x.menu.length; i++){
 			if (x.menu[i].id == id){
-				x.cart.push(x.menu[i]);
+				x.cart[0].menu.push(x.menu[i]);
 			}
 		}
 		
@@ -502,11 +502,11 @@ function addToCartDish(id){
 
 function addToCart(id){
 	data.then(x => {
-		var len = x.cart.length;
+		var len = x.cart[0].menu.length + x.cart[0].product.length;
 		var lenPlus = len + 1;
 		for (var i = 0; i < x.products.length; i++){
 			if (x.products[i].id == id){
-				x.cart.push(x.products[i]);
+				x.cart[0].product.push(x.products[i]);
 			}
 		}
 		

@@ -2,24 +2,28 @@
     "products": [
         {
             "id": 1,
+            "type": "product",
             "name": "Đùi gà góc tư",
             "price": "15000 VND",
             "img": "img/product_1.jpg"
         },
         {
             "id": 2,
+            "type": "product",
             "name": "Sườn cốt lếch",
             "price": "15000 VND",
             "img": "img/product_2.png"
         },
         {
             "id": 3,
+            "type": "product",
             "name": "Đùi gà góc tư",
             "price": "15000 VND",
             "img": "img/product_3.png"
         },
         {
             "id": 4,
+            "type": "product",
             "name": "Đùi gà góc tư",
             "price": "15000 VND",
             "img": "img/product_4.png"
@@ -44,6 +48,7 @@
     "menu":[
         {
             "id": 1,
+            "type": "menu",
             "title": "HƯỚNG DẪN NẤU MÓN CƠM GÀ TAM KỲ",
             "name1": "Gạo Tám thơm (gram)",
             "quantity1": 500,
@@ -80,5 +85,9 @@
     ],
 
     "cart":[
+        {
+            "product":[],
+            "menu": []
+        }
     ]
 }

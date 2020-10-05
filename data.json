@@ -1,24 +1,84 @@
 {
     "products": [
         {
+            "id": 1,
             "name": "Đùi gà góc tư",
             "price": "15000 VND",
             "img": "img/product_1.jpg"
         },
         {
+            "id": 2,
             "name": "Sườn cốt lếch",
             "price": "15000 VND",
             "img": "img/product_2.png"
         },
         {
+            "id": 3,
             "name": "Đùi gà góc tư",
             "price": "15000 VND",
             "img": "img/product_3.png"
         },
         {
+            "id": 4,
             "name": "Đùi gà góc tư",
             "price": "15000 VND",
             "img": "img/product_4.png"
         }
+    ],
+
+    "productDetail":[
+        {
+            "id": 1,
+            "title": "Đùi Gà Góc Tư",
+            "img1": "img/item1.jpg",
+            "img2": "img/item1.jpg",
+            "description": "- Đùi gà được lấy từ phần đùi của con gà.",
+            "titleProduct": "Đùi Gà Góc Tư",
+            "dateOfManufacture": "01/08/2020",
+            "producer": "Gà Phạm Tôn",
+            "price": "15000 VND",
+            "weight": "300 gram"
+        }
+    ],
+
+    "menu":[
+        {
+            "id": 1,
+            "title": "HƯỚNG DẪN NẤU MÓN CƠM GÀ TAM KỲ",
+            "name1": "Gạo Tám thơm (gram)",
+            "quantity1": 500,
+            "name2": "Hành tây (củ)",
+            "quantity2": 1,
+            "name3": "Chanh (quả)",
+            "quantity3": 3,
+            "name4": "Ớt (quả)",
+            "quantity4": 2,
+            "name5": "Tỏi (củ)",
+            "quantity5": 0.5,
+            "name6": "Rau răm (gram)",
+            "quantity6": 2,
+            "name7": "Đùi gà Góc Tư (cái)",
+            "quantity7": 4,
+            "step1": "Gà rửa sạch, hành lá và gừng bó lại nhét vào bụng gà. Cho nước, bột nghệ, muối, đường và gà vào nồi, bắc lên bếp luộc gà với lửa vừa. Khi gà chín thì vớt gà ra.",
+            "step2": "Gạo (tùy ăn nhiều hay ít) vo sạch, nấu với nước luộc gà (cách nấu giống bình thường hàng ngày bạn nấu cơm). Muốn cơm có màu vàng hơn thì cho thêm chút bột.",
+            "step3": "Hành tây thái mỏng, ngâm với dấm và đường 30 phút cho hành hết hăng.",
+            "step4": "Gà luộc xé hơi nhỏ, cho vào âu cùng với rau thơm, rau răm, hành tây. Sau đó cho chén nước mắm vào trộn đều. Nêm nếm lại cho vừa ăn. Nén cơm vào bát rồi úp ra đĩa. Thịt gà trộn cho cho một bên đĩa, cạnh cơm rồi rắc thêm chút hành phi, trang trí dưa chuột, xà lách cho đẹp."
+        }
+    ],
+
+    "recommendDish":[
+        {
+            "id": 1,
+            "name": "Cơm gà Tam Kỳ",
+            "description": "Món ăn làm từ gà"
+        },
+        {
+            "id": 2,
+            "name": "Cà Ri Gà",
+            "description": "Món ăn làm từ gà"
+        }
+    ],
+
+    "cart":[
     ]
 }

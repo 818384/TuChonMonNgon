@@ -411,7 +411,7 @@ function bindDataToHTMLDetailDish() {
 function bindDataToHTMLDishRecommend() {
 	let mainRow = $('#dishRecommend');
 	let loadProducts = data.then(x => {
-		for (var i = 0; i < data.recommendDish.length; i++) {
+		for (var i = 0; i < data.products[i].recommendDish.length; i++) {
 			mainRow.append(
 				'<div class="row" id="menu' + '-' + data.menu[i].id + '">'
 				+ '<div class="col-md-1"></div>'
@@ -422,14 +422,14 @@ function bindDataToHTMLDishRecommend() {
 				+ '</div>'
 				+ '<div class="card-body text-center">'
 				+ '<h5 class="card-title">'
-				+ data.recommendDish[i].name
+				+ data.products[i].recommendDish[i].name
 				+ '</h5>'
 				+ '<div class="card-description">'
-				+ data.recommendDish[i].description
+				+ data.products[i].recommendDish[i].description
 				+ '</div>'
 				+ '<hr>'
 				+ '<div class="card-footer">'
-				+ '<button id="CMonGa' + '-' + data.menu[i].id + '" type="button" class="btn btn-outline-primary btn-round" data-toggle="modal" data-target="#MonGa' + '-' + data.recommendDish[i].id + '">Chọn món</button>'
+				+ '<button id="CMonGa' + '-' + data.menu[i].id + '" type="button" class="btn btn-outline-primary btn-round" data-toggle="modal" data-target="#MonGa' + '-' + data.products[i].recommendDish[i].id + '">Chọn món</button>'
 				+ '</div>'
 				+ '</div>'
 				+ '</div>'

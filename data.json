@@ -13,7 +13,19 @@
             "dateOfManufacture": "01/08/2020",
             "producer": "Gà Phạm Tôn",
             "weight": "300 gram",
-            "title": "Đùi gà góc tư"
+            "title": "Đùi gà góc tư",
+            "recommendDish": [
+                {
+                    "id": 1,
+                    "name": "Cơm gà Tam Kỳ",
+                    "description": "Món ăn làm từ gà"
+                },
+                {
+                    "id": 2,
+                    "name": "Cà Ri Gà",
+                    "description": "Món ăn làm từ gà"
+                }
+            ]
         },
         {
             "id": 2,
@@ -28,7 +40,19 @@
             "dateOfManufacture": "01/08/2020",
             "producer": "Gà Phạm Tôn",
             "weight": "300 gram",
-            "title": "Đùi gà góc tư"
+            "title": "Đùi gà góc tư",
+            "recommendDish": [
+                {
+                    "id": 1,
+                    "name": "Cơm gà Tam Kỳ",
+                    "description": "Món ăn làm từ gà"
+                },
+                {
+                    "id": 2,
+                    "name": "Cà Ri Gà",
+                    "description": "Món ăn làm từ gà"
+                }
+            ]
         },
         {
             "id": 3,
@@ -43,7 +67,19 @@
             "dateOfManufacture": "01/08/2020",
             "producer": "Gà Phạm Tôn",
             "weight": "300 gram",
-            "title": "Đùi gà góc tư"
+            "title": "Đùi gà góc tư",
+            "recommendDish": [
+                {
+                    "id": 1,
+                    "name": "Cơm gà Tam Kỳ",
+                    "description": "Món ăn làm từ gà"
+                },
+                {
+                    "id": 2,
+                    "name": "Cà Ri Gà",
+                    "description": "Món ăn làm từ gà"
+                }
+            ]
         },
         {
             "id": 4,
@@ -58,7 +94,19 @@
             "dateOfManufacture": "01/08/2020",
             "producer": "Gà Phạm Tôn",
             "weight": "300 gram",
-            "title": "Đùi gà góc tư"
+            "title": "Đùi gà góc tư",
+            "recommendDish": [
+                {
+                    "id": 1,
+                    "name": "Cơm gà Tam Kỳ",
+                    "description": "Món ăn làm từ gà"
+                },
+                {
+                    "id": 2,
+                    "name": "Cà Ri Gà",
+                    "description": "Món ăn làm từ gà"
+                }
+            ]
         }
     ],
     "menu": [
@@ -123,18 +171,6 @@
             "step2": "Gạo (tùy ăn nhiều hay ít) vo sạch, nấu với nước luộc gà (cách nấu giống bình thường hàng ngày bạn nấu cơm). Muốn cơm có màu vàng hơn thì cho thêm chút bột.",
             "step3": "Hành tây thái mỏng, ngâm với dấm và đường 30 phút cho hành hết hăng.",
             "step4": "Gà luộc xé hơi nhỏ, cho vào âu cùng với rau thơm, rau răm, hành tây. Sau đó cho chén nước mắm vào trộn đều. Nêm nếm lại cho vừa ăn. Nén cơm vào bát rồi úp ra đĩa. Thịt gà trộn cho cho một bên đĩa, cạnh cơm rồi rắc thêm chút hành phi, trang trí dưa chuột, xà lách cho đẹp."
-        }
-    ],
-    "recommendDish": [
-        {
-            "id": 1,
-            "name": "Cơm gà Tam Kỳ",
-            "description": "Món ăn làm từ gà"
-        },
-        {
-            "id": 2,
-            "name": "Cà Ri Gà",
-            "description": "Món ăn làm từ gà"
         }
     ],
     "cart": [

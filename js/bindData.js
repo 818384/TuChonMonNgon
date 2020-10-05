@@ -616,3 +616,7 @@ onReady(function() {
 		});
 	});
 });
+
+function load(url){
+	$("#websiteContent").load(url);
+}

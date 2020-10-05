@@ -54,6 +54,7 @@
 		
 		var data = loadJSON('./data.json');
 		data.then( x => {
+			data = x;
 			localStorage.setItem('cartData', JSON.stringify(x));
 		});
 		

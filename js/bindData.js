@@ -273,7 +273,7 @@ function bindDataToHTMLDetailDish() {
 				+ '<label class="form-check-label">'
 				+ '<input type="checkbox" class="form-check-input" value="">'
 				+ '<span class="form-check-sign"></span>'
-				+ '</label>'
+				+ '</label>'	
 				+ '</div>'
 				+ '</td>'
 				+ '</tr>'
@@ -613,8 +613,4 @@ onReady(function () {
 
 function load(url) {
 	$("#websiteContent").load(url);
-}
-
-function add(elm) {
-	console.log(elm);
 }

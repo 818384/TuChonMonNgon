@@ -495,7 +495,7 @@ function addToCartDish(id){
 		var len = x.cart[0].menu.length + x.cart[0].product.length;
 		console.log(x.cart);
 		document.getElementById('cartAmount').innerText = len;
-		localStorage.setItem('dataTuChonMonNgon', JSON.stringify(x));
+		localStorage.setItem('cartData', JSON.stringify(x));
 	});
 }
 
@@ -509,7 +509,7 @@ function addToCart(id){
 		var len = x.cart[0].menu.length + x.cart[0].product.length;
 		console.log(x.cart);
 		document.getElementById('cartAmount').innerText = len;
-		localStorage.setItem('dataTuChonMonNgon', JSON.stringify(x));
+		localStorage.setItem('cartData', JSON.stringify(x));
 	});
 	
 }

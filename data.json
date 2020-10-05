@@ -29,8 +29,7 @@
             "img": "img/product_4.png"
         }
     ],
-
-    "productDetail":[
+    "productDetail": [
         {
             "id": 1,
             "title": "Đùi Gà Góc Tư",
@@ -44,8 +43,7 @@
             "weight": "300 gram"
         }
     ],
-
-    "menu":[
+    "menu": [
         {
             "id": 1,
             "type": "menu",
@@ -70,8 +68,7 @@
             "step4": "Gà luộc xé hơi nhỏ, cho vào âu cùng với rau thơm, rau răm, hành tây. Sau đó cho chén nước mắm vào trộn đều. Nêm nếm lại cho vừa ăn. Nén cơm vào bát rồi úp ra đĩa. Thịt gà trộn cho cho một bên đĩa, cạnh cơm rồi rắc thêm chút hành phi, trang trí dưa chuột, xà lách cho đẹp."
         }
     ],
-
-    "recommendDish":[
+    "recommendDish": [
         {
             "id": 1,
             "name": "Cơm gà Tam Kỳ",
@@ -83,10 +80,9 @@
             "description": "Món ăn làm từ gà"
         }
     ],
-
-    "cart":[
+    "cart": [
         {
-            "product":[],
+            "product": [],
             "menu": []
         }
     ]

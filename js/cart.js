@@ -163,11 +163,67 @@ function bindDataToHTMLMyCartMenu() {
 				+					'</tr>'
 				+				'</tbody>'
 				+			'</table>'
-				+		'</div>'
+        +		'</div>'
+        +   '<br>'
 			);
 		}
 }
 
+function bindDataToHTMLMyCartProduct() {
+	let mainRow = $('#myCartProduct');
+		for (var i = 0; i < data.cart[0].product.length; i++) {
+			mainRow.append(
+        '<h3 class="card-category"><strong>' + data.cart[0].product[i].name + '</strong></h3>'
+				+		'<br>'
+				+		'<div class="card-description">'
+				+			'<table class="table text-right">'
+				+				'<thead>'
+				+					'<tr>'
+				+						'<th class="text-center">#</th>'
+				+						'<th class="text-center">Sản phẩm</th>'
+				+						'<th class="text-right">Số lượng</th>'
+				+						'<th class="text-right">Giá tiền</th>'
+				+						'<th></th>'
+				+				  '</tr>'
+				+				'</thead>'
+				+				'<tbody>'
+				+					'<tr>'
+				+						'<td class="text-center">1</td>'
+				+						'<td class="text-center">' + data.cart[0].product[i].name + '</td>'
+				+						'<td class="td-number td-quantity">'
+				+							 '1&nbsp;&nbsp;'
+				+							'<div class="btn-group">'
+				+								'<button class="btn btn-sm btn-border btn-round">-</button>'
+				+								'<button class="btn btn-sm btn-border btn-round">+</button>'
+				+							'</div>'
+				+						'</td>'
+				+						'<td>' + data.cart[0].product[i].price + '<small> VND</small></td>'
+				+						'<td class="td-actions text-center">'
+				+							'<button type="button" data-toggle="tooltip" data-placement="top" title data-original-title="Xóa" class="btn btn-danger btn-link btn-sm">'
+				+								'<i class="fa fa-times" style="font-size: 1.5vw"></i>'
+				+							'</button>'
+				+						'</td>'
+        +					'</tr>'
+        +         '<tr>'
+				+						'<td class="text-center"><i class="fa fa-money mt-2" style="font-size: 1.5vw"></i></td>'
+				+						'<td class="td-total text-center">'
+				+							'Tổng tiền'
+				+						'</td>'
+				+						'<td></td>'
+				+						'<td class="td-price text-right">'
+				+							data.cart[0].product[i].price+' <small>VND</small>'
+				+						'</td>'
+				+						'<td class="text-center">'
+				+							'<button type="button" data-toggle="tooltip" data-placement="top" title data-original-title="Hủy món" class="btn btn-danger btn-sm" style="font-size: 1vw">Hủy món này</button>'
+				+						'</td>'
+				+					'</tr>'
+        +       '</tbody>'
+				+			'</table>'
+        +		'</div>'
+        +   '<br>'
+      );
+    }
+}
 
 function onReady(callback) {
   var intervalId = window.setInterval(function () {

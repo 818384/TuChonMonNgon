@@ -14,8 +14,6 @@
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
 	<meta name="viewport" content="width=device-width" />
 
-	
-
 	<!-- Core JS Files -->
 	<script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
 	<script src="js/jquery-ui-1.12.1.custom.min.js" type="text/javascript"></script>
@@ -47,14 +45,19 @@
 	<script src="js/bootstrap-datetimepicker.min.js"></script>
 
 	<script src="js/paper-kit.js?v=2.1.0"></script>
-
-	<script src="js/custom.js" type="text/javascript"></script>
+	<script>
+		var data = JSON.parse(localStorage.getItem('dataTuChonMonNgon'));
+		//console.log('data: ', data.cart);
+	</script>
+	
+	<script src="js/custom2.js" type="text/javascript">
 		$(document).ready(function() {
 			getAmountForCart();
 	});
 	</script>
+	<script src="./menu.js"></script>
 </head>
-<body>
+<body id="start">
 	<nav class="navbar navbar-expand-md bg-success fixed-top">
 		<div class="container">
 			<a class="navbar-brand" href="#">Tự chọn món ngon</a>
@@ -80,6 +83,9 @@
 						<button type="button" class="btn btn-link btn-danger fixed-top" style="margin-left: 30%; padding: 0; padding-left: 57%;">
 							<i class="fa fa-shopping-cart shopping-cart-plus-product" style="font-size: 2vw; color: red;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i>
 							<h3 class="d-inline-block" id="cartAmount" style="margin: 0; padding-left: 30%;"></h3>
+							<script>
+								getAmountForCart();
+							</script>
 						</button>
 					</li>
 				</ul>
@@ -262,7 +268,7 @@
 			</div>
 		</div>
 	</div>
-				
+	<div id="loading"></div>	
 </body>
 
 </html>

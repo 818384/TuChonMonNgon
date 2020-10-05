@@ -48,22 +48,26 @@
 	<script src="js/bootstrap-datetimepicker.min.js"></script>
 
 	<script src="js/paper-kit.js?v=2.1.0"></script>
-		<script>
-			async function loadJSON(url) {
-				const res = await fetch(url);
-				return await res.json();
-			}
-			
-			var data = loadJSON('./data.json');
-		</script>
-		<script src="js/custom.js" type="text/javascript">
-			$(document).ready(function() {
-				bindDataToHTML();
-				bindDataToHTMLDetail();
-				bindDataToHTMLDetailDish();
-				bindDataToHTMLDishRecommend();
+	<script>
+		async function loadJSON(url) {
+			const res = await fetch(url);
+			return await res.json();
+		}
+		
+		var data = loadJSON('./data.json');
+		data.then( x => {
+			localStorage.setItem('dataTuChonMonNgon', JSON.stringify(x));
 		});
-		</script>
+		
+	</script>
+	<script src="js/custom.js" type="text/javascript">
+		$(document).ready(function() {
+			bindDataToHTML();
+			bindDataToHTMLDetail();
+			bindDataToHTMLDetailDish();
+			bindDataToHTMLDishRecommend();
+	});
+	</script>
 	<script src="./menu.js"></script>
 	
 </head>

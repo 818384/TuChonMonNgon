@@ -5,10 +5,10 @@
             "type": "product",
             "name": "Đùi gà góc tư",
             "price": "15000 VND",
-            "img": "img/product_1.jpg",
-            "img1": "img/item1.jpg",
-            "img2": "img/item1.jpg",
-            "description": "- Đùi gà được lấy từ phần đùi của con gà.",
+            "img": "img/ga_1.png",
+            "img1": "img/ga_1.png",
+            "img2": "img/ga_1.png",
+            "description": "- Đùi gà được lấy từ nguyên liệu tươi từ lò mổ Phạm Tôn.",
             "titleProduct": "Đùi Gà Góc Tư",
             "dateOfManufacture": "01/08/2020",
             "producer": "Gà Phạm Tôn",
@@ -30,17 +30,17 @@
         {
             "id": 2,
             "type": "product",
-            "name": "Sườn cốt lếch",
-            "price": "15000 VND",
-            "img": "img/product_2.png",
-            "img1": "img/item1.jpg",
-            "img2": "img/item1.jpg",
-            "description": "- Đùi gà được lấy từ phần đùi của con gà.",
-            "titleProduct": "Đùi Gà Góc Tư",
+            "name": "ĐÙI GÀ TA GÒ CÔNG 700G",
+            "price": "168000 VND",
+            "img": "img/ga_2.jpg",
+            "img1": "img/ga_2.jpg",
+            "img2": "img/ga_2.jpg",
+            "description": "- Đạt chứng nhận EM Green của tổ chức EMRO Nhật Bản và An toàn vệ sinh thực phẩm của Chi cục quản lý chất lượng nông lâm sản & thuỷ sản.",
+            "titleProduct": "ĐÙI GÀ TA GÒ CÔNG 700G",
             "dateOfManufacture": "01/08/2020",
-            "producer": "Gà Phạm Tôn",
-            "weight": "300 gram",
-            "title": "Đùi gà góc tư",
+            "producer": "GÀ TA GÒ CÔNG",
+            "weight": "700 gram",
+            "title": "ĐÙI GÀ TA GÒ CÔNG 700G",
             "recommendDish": [
                 {
                     "id": 1,
@@ -57,17 +57,17 @@
         {
             "id": 3,
             "type": "product",
-            "name": "Đùi gà góc tư",
-            "price": "15000 VND",
-            "img": "img/product_3.png",
-            "img1": "img/item1.jpg",
-            "img2": "img/item1.jpg",
-            "description": "- Đùi gà được lấy từ phần đùi của con gà.",
-            "titleProduct": "Đùi Gà Góc Tư",
+            "name": "CÁNH GÀ TA GÒ CÔNG 450G",
+            "price": "58500 VND",
+            "img": "img/ga_3.jpg",
+            "img1": "img/ga_3.jpg",
+            "img2": "img/ga_3.jpg",
+            "description": "- Áp dụng công nghệ vi sinh Nhật Bản tiên tiến vào chăn nuôi.",
+            "titleProduct": "CÁNH GÀ TA GÒ CÔNG 450G",
             "dateOfManufacture": "01/08/2020",
             "producer": "Gà Phạm Tôn",
-            "weight": "300 gram",
-            "title": "Đùi gà góc tư",
+            "weight": "450 gram",
+            "title": "CÁNH GÀ TA GÒ CÔNG 450G",
             "recommendDish": [
                 {
                     "id": 1,
@@ -84,17 +84,17 @@
         {
             "id": 4,
             "type": "product",
-            "name": "Đùi gà góc tư",
-            "price": "15000 VND",
-            "img": "img/product_4.png",
-            "img1": "img/item1.jpg",
-            "img2": "img/item1.jpg",
+            "name": "ỨC GÀ TA GÒ CÔNG Organicfood 400G",
+            "price": "156000 VND",
+            "img": "img/ga_4.jpg",
+            "img1": "img/ga_4.jpg",
+            "img2": "img/ga_4.jpg",
             "description": "- Đùi gà được lấy từ phần đùi của con gà.",
-            "titleProduct": "Đùi Gà Góc Tư",
+            "titleProduct": "ỨC GÀ TA GÒ CÔNG Organicfood 400G",
             "dateOfManufacture": "01/08/2020",
-            "producer": "Gà Phạm Tôn",
-            "weight": "300 gram",
-            "title": "Đùi gà góc tư",
+            "producer": "GÀ TA GÒ CÔNG",
+            "weight": "400 gram",
+            "title": "ỨC GÀ TA GÒ CÔNG Organicfood 400G",
             "recommendDish": [
                 {
                     "id": 1,
@@ -105,6 +105,330 @@
                     "id": 2,
                     "name": "Cà Ri Gà",
                     "description": "Món ăn làm từ gà"
+                }
+            ]
+        },
+		{
+            "id": 5,
+            "type": "product",
+            "name": "Bộ Xương Gà - Có Lòng Organicfood",
+            "price": "70000 VND",
+            "img": "img/ga_5.jpg",
+			"img1": "img/ga_5.jpg",
+            "img2": "img/ga_5.jpg",
+            "description": "- Bộ Xương Gà - Có Lòng Organicfood",
+            "titleProduct": "Bộ Xương Gà - Có Lòng Organicfood",
+            "dateOfManufacture": "01/08/2020",
+            "producer": "Organicfood",
+            "weight": "400 gram",
+            "title": "Bộ Xương Gà - Có Lòng Organicfood",
+            "recommendDish": [
+                {
+                    "id": 1,
+                    "name": "Cơm gà Tam Kỳ",
+                    "description": "Món ăn làm từ gà"
+                },
+                {
+                    "id": 2,
+                    "name": "Cà Ri Gà",
+                    "description": "Món ăn làm từ gà"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "type": "product",
+            "name": "Gà ta thả vườn Organicfood 1.2kg",
+            "price": "294000 VND",
+            "img": "img/ga_6.jpg",
+			"img1": "img/ga_6.jpg",
+            "img2": "img/ga_6.jpg",
+            "description": "- Gà ta thả vườn Organicfood 1.2kg",
+            "titleProduct": "Gà ta thả vườn Organicfood 1.2kg",
+            "dateOfManufacture": "01/08/2020",
+            "producer": "GÀ TA GÒ CÔNG",
+            "weight": "1200 gram",
+            "title": "Gà ta thả vườn Organicfood 1.2kg",
+            "recommendDish": [
+                {
+                    "id": 1,
+                    "name": "Cơm gà Tam Kỳ",
+                    "description": "Món ăn làm từ gà"
+                },
+                {
+                    "id": 2,
+                    "name": "Cà Ri Gà",
+                    "description": "Món ăn làm từ gà"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "type": "product",
+            "name": "Gà ác (200gr) - Thịt tươi, nhập mỗi ngày",
+            "price": "60000 VND",
+            "img": "img/ga_7.jpg",
+			"img1": "img/ga_7.jpg",
+            "img2": "img/ga_7.jpg",
+            "description": "- Gà ác (200gr) - Thịt tươi, nhập mỗi ngày",
+            "titleProduct": "Gà ác (200gr) - Thịt tươi, nhập mỗi ngày",
+            "dateOfManufacture": "01/08/2020",
+            "producer": "GÀ TA GÒ CÔNG",
+            "weight": "200 gram",
+            "title": "Gà ác (200gr) - Thịt tươi, nhập mỗi ngày",
+            "recommendDish": [
+                {
+                    "id": 1,
+                    "name": "Cơm gà Tam Kỳ",
+                    "description": "Món ăn làm từ gà"
+                },
+                {
+                    "id": 2,
+                    "name": "Cà Ri Gà",
+                    "description": "Món ăn làm từ gà"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "type": "product",
+            "name": "Giò gà Gò Công Organicfood 500gr",
+            "price": "55000 VND",
+            "img": "img/ga_8.png",
+			"img1": "img/ga_8.png",
+            "img2": "img/ga_8.png",
+            "description": "- Giò gà Gò Công Organicfood 500gr",
+            "titleProduct": "Giò gà Gò Công Organicfood 500gr",
+            "dateOfManufacture": "01/08/2020",
+            "producer": "Organicfood",
+            "weight": "500 gram",
+            "title": "Giò gà Gò Công Organicfood 500gr",
+            "recommendDish": [
+                {
+                    "id": 1,
+                    "name": "Cơm gà Tam Kỳ",
+                    "description": "Món ăn làm từ gà"
+                },
+                {
+                    "id": 2,
+                    "name": "Cà Ri Gà",
+                    "description": "Món ăn làm từ gà"
+                }
+            ]
+        },
+		{
+            "id": 9,
+            "type": "product",
+            "name": "1kg Ba chỉ heo không da cắt dây",
+            "price": "123000 VND",
+            "img": "img/heo_1.png",
+			"img1": "img/heo_1.png",
+            "img2": "img/heo_1.png",
+            "description": "- 1kg Ba chỉ heo không da cắt dây",
+            "titleProduct": "1kg Ba chỉ heo không da cắt dây",
+            "dateOfManufacture": "01/08/2020",
+            "producer": "Organicfood",
+            "weight": "1000 gram",
+            "title": "1kg Ba chỉ heo không da cắt dây",
+            "recommendDish": [
+                {
+                    "id": 1,
+                    "name": "Cơm Tấm",
+                    "description": "Món ăn làm từ thịt"
+                },
+                {
+                    "id": 2,
+                    "name": "Thịt Kho",
+                    "description": "Món ăn làm từ thịt"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "type": "product",
+            "name": "Sườn non heo Mỹ MVP khay 600g",
+            "price": "99000 VND",
+            "img": "img/heo_2.jpg",
+			"img1": "img/heo_2.jpg",
+            "img2": "img/heo_2.jpg",
+            "description": "- Sườn non heo Mỹ MVP khay 600g",
+            "titleProduct": "Sườn non heo Mỹ MVP khay 600g",
+            "dateOfManufacture": "01/08/2020",
+            "producer": "MVP",
+            "weight": "600 gram",
+            "title": "Sườn non heo Mỹ MVP khay 600g",
+            "recommendDish": [
+                {
+                    "id": 1,
+                    "name": "Cơm Tấm",
+                    "description": "Món ăn làm từ thịt"
+                },
+                {
+                    "id": 2,
+                    "name": "Thịt Kho",
+                    "description": "Món ăn làm từ thịt"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "type": "product",
+            "name": "BA CHỈ Heo MỸ NKP HOT POT 500 GR",
+            "price": "100000 VND",
+            "img": "img/heo_3.jpg",
+			"img1": "img/heo_3.jpg",
+            "img2": "img/heo_3.jpg",
+            "description": "- BA CHỈ Heo MỸ NKP HOT POT 500 GR",
+            "titleProduct": "BA CHỈ Heo MỸ NKP HOT POT 500 GR",
+            "dateOfManufacture": "01/08/2020",
+            "producer": "Organicfood",
+            "weight": "500 gram",
+            "title": "BA CHỈ Heo MỸ NKP HOT POT 500 GR",
+            "recommendDish": [
+                {
+                    "id": 1,
+                    "name": "Cơm Tấm",
+                    "description": "Món ăn làm từ thịt"
+                },
+                {
+                    "id": 2,
+                    "name": "Thịt Kho",
+                    "description": "Món ăn làm từ thịt"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "type": "product",
+            "name": "Sườn Non Heo Thái Lan NKP 1KG",
+            "price": "140000 VND",
+            "img": "img/heo_4.png",
+			"img1": "img/heo_4.png",
+            "img2": "img/heo_4.png",
+            "description": "- Sườn Non Heo Thái Lan NKP 1KG",
+            "titleProduct": "Sườn Non Heo Thái Lan NKP 1KG",
+            "dateOfManufacture": "01/08/2020",
+            "producer": "Thái Lan NKP",
+            "weight": "1000 gram",
+            "title": "Sườn Non Heo Thái Lan NKP 1KG",
+            "recommendDish": [
+                {
+                    "id": 1,
+                    "name": "Cơm Tấm",
+                    "description": "Món ăn làm từ thịt"
+                },
+                {
+                    "id": 2,
+                    "name": "Thịt Kho",
+                    "description": "Món ăn làm từ thịt"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "type": "product",
+            "name": "Heo ÚC Tươi Ngon NKP 500GR",
+            "price": "100000 VND",
+            "img": "img/heo_5.png",
+			"img1": "img/heo_5.png",
+            "img2": "img/heo_5.png",
+            "description": "- Heo ÚC Tươi Ngon NKP 500GR",
+            "titleProduct": "Heo ÚC Tươi Ngon NKP 500GR",
+            "dateOfManufacture": "01/08/2020",
+            "producer": "Organicfood",
+            "weight": "500 gram",
+            "title": "Heo ÚC Tươi Ngon NKP 500GR",
+            "recommendDish": [
+                {
+                    "id": 1,
+                    "name": "Cơm Tấm",
+                    "description": "Món ăn làm từ thịt"
+                },
+                {
+                    "id": 2,
+                    "name": "Thịt Kho",
+                    "description": "Món ăn làm từ thịt"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "type": "product",
+            "name": "CỐT LẾCH HEO CẮT ĐÔNG LẠNH NKP 1kg",
+            "price": "100000 VND",
+            "img": "img/heo_6.png",
+			"img1": "img/heo_6.png",
+            "img2": "img/heo_6.png",
+            "description": "- CỐT LẾCH HEO CẮT ĐÔNG LẠNH NKP 1kg",
+            "titleProduct": "CỐT LẾCH HEO CẮT ĐÔNG LẠNH NKP 1kg",
+            "dateOfManufacture": "01/08/2020",
+            "producer": "Organicfood",
+            "weight": "1000 gram",
+            "title": "CỐT LẾCH HEO CẮT ĐÔNG LẠNH NKP 1kg",
+            "recommendDish": [
+                {
+                    "id": 1,
+                    "name": "Cơm Tấm",
+                    "description": "Món ăn làm từ thịt"
+                },
+                {
+                    "id": 2,
+                    "name": "Thịt Kho",
+                    "description": "Món ăn làm từ thịt"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "type": "product",
+            "name": "Lưỡi Heo Đan Mạch MVP khay 200g",
+            "price": "69000 VND",
+            "img": "img/heo_7.jpg",
+			"img1": "img/heo_7.jpg",
+            "img2": "img/heo_7.jpg",
+            "description": "- Lưỡi Heo Đan Mạch MVP khay 200g",
+            "titleProduct": "Lưỡi Heo Đan Mạch MVP khay 200g",
+            "dateOfManufacture": "01/08/2020",
+            "producer": "Organicfood",
+            "weight": "200 gram",
+            "title": "Lưỡi Heo Đan Mạch MVP khay 200g",
+            "recommendDish": [
+                {
+                    "id": 1,
+                    "name": "Cơm Tấm",
+                    "description": "Món ăn làm từ thịt"
+                },
+                {
+                    "id": 2,
+                    "name": "Thịt Kho",
+                    "description": "Món ăn làm từ thịt"
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "type": "product",
+            "name": "NẠC VAI HEO ÚC ĐÔNG LẠNH NKP 1kg",
+            "price": "187600 VND",
+            "img": "img/heo_8.png",
+			"img1": "img/heo_8.png",
+            "img2": "img/heo_8.png",
+            "description": "- NẠC VAI HEO ÚC ĐÔNG LẠNH NKP 1kg",
+            "titleProduct": "NẠC VAI HEO ÚC ĐÔNG LẠNH NKP 1kg",
+            "dateOfManufacture": "01/08/2020",
+            "producer": "Organicfood",
+            "weight": "1000 gram",
+            "title": "NẠC VAI HEO ÚC ĐÔNG LẠNH NKP 1kg",
+            "recommendDish": [
+                {
+                    "id": 1,
+                    "name": "Cơm Tấm",
+                    "description": "Món ăn làm từ thịt"
+                },
+                {
+                    "id": 2,
+                    "name": "Thịt Kho",
+                    "description": "Món ăn làm từ thịt"
                 }
             ]
         }
@@ -136,6 +460,7 @@
             "name7": "Đùi gà Góc Tư (cái)",
             "quantity7": 4,
             "price7": 60000,
+            "sum": 81000,
             "step1": "Gà rửa sạch, hành lá và gừng bó lại nhét vào bụng gà. Cho nước, bột nghệ, muối, đường và gà vào nồi, bắc lên bếp luộc gà với lửa vừa. Khi gà chín thì vớt gà ra.",
             "step2": "Gạo (tùy ăn nhiều hay ít) vo sạch, nấu với nước luộc gà (cách nấu giống bình thường hàng ngày bạn nấu cơm). Muốn cơm có màu vàng hơn thì cho thêm chút bột.",
             "step3": "Hành tây thái mỏng, ngâm với dấm và đường 30 phút cho hành hết hăng.",
@@ -167,6 +492,7 @@
             "name7": "Đùi gà Góc Tư (cái)",
             "quantity7": 4,
             "price7": 60000,
+            "sum": 81000,
             "step1": "Gà rửa sạch, hành lá và gừng bó lại nhét vào bụng gà. Cho nước, bột nghệ, muối, đường và gà vào nồi, bắc lên bếp luộc gà với lửa vừa. Khi gà chín thì vớt gà ra.",
             "step2": "Gạo (tùy ăn nhiều hay ít) vo sạch, nấu với nước luộc gà (cách nấu giống bình thường hàng ngày bạn nấu cơm). Muốn cơm có màu vàng hơn thì cho thêm chút bột.",
             "step3": "Hành tây thái mỏng, ngâm với dấm và đường 30 phút cho hành hết hăng.",

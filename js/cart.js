@@ -155,7 +155,7 @@ function bindDataToHTMLMyCartMenu() {
 				+						'</td>'
 				+						'<td></td>'
 				+						'<td class="td-price text-right">'
-				+							'75.000 <small>VND</small>'
+				+							data.cart[0].menu[i].sum + '<small>VND</small>'
 				+						'</td>'
 				+						'<td class="text-center">'
 				+							'<button type="button" data-toggle="tooltip" data-placement="top" title data-original-title="Hủy món" class="btn btn-danger btn-sm" style="font-size: 1vw">Hủy món này</button>'
@@ -197,7 +197,7 @@ function bindDataToHTMLMyCartProduct() {
 				+								'<button class="btn btn-sm btn-border btn-round">+</button>'
 				+							'</div>'
 				+						'</td>'
-				+						'<td>' + data.cart[0].product[i].price + '<small> VND</small></td>'
+				+						'<td>' + data.cart[0].product[i].price + '</td>'
 				+						'<td class="td-actions text-center">'
 				+							'<button type="button" data-toggle="tooltip" data-placement="top" title data-original-title="Xóa" class="btn btn-danger btn-link btn-sm">'
 				+								'<i class="fa fa-times" style="font-size: 1.5vw"></i>'
@@ -211,10 +211,10 @@ function bindDataToHTMLMyCartProduct() {
 				+						'</td>'
 				+						'<td></td>'
 				+						'<td class="td-price text-right">'
-				+							data.cart[0].product[i].price+' <small>VND</small>'
+				+							data.cart[0].product[i].price
 				+						'</td>'
 				+						'<td class="text-center">'
-				+							'<button type="button" data-toggle="tooltip" data-placement="top" title data-original-title="Hủy món" class="btn btn-danger btn-sm" style="font-size: 1vw">Hủy món này</button>'
+				+							'<button onClick="deleteItemGH(product, '+data.cart[0].product[i].id+')" type="button" data-toggle="tooltip" data-placement="top" title data-original-title="Hủy món" class="btn btn-danger btn-sm" style="font-size: 1vw">Hủy món này</button>'
 				+						'</td>'
 				+					'</tr>'
         +       '</tbody>'
@@ -242,3 +242,26 @@ onReady(function () {
   setVisible('#start', true);
   setVisible('#loading', false);
 });
+
+function sum(){
+  var sum = 0;
+  for (var i = 0; i < data.cart[0].menu.length; i++) {
+    sum = sum + data.cart[0].menu[i].sum;
+  }
+  for (var i = 0; i < data.cart[0].product.length; i++) {
+    sum = sum + Number(data.cart[0].product[i].price.split(" ")[0]);
+  }
+  document.getElementById('sum').innerHTML = sum + "<small> VND</small>";
+}
+
+function deleteItemGH(type, id){
+  console.log('du lieu xoa');
+  if (type == "product"){
+    for (var i = 0; i < data.cart[0].product.length; i++) {
+      if (data.cart[0].product[i].id == id){
+        delete data.cart[0].product[i];
+      }
+    }
+  }
+  
+}

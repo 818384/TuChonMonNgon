@@ -264,7 +264,7 @@ function header (){
   mainRow.append(
     '<nav class="navbar navbar-expand-md bg-success fixed-top">'
 	+	'<div class="container">'
-	+		'<a class="navbar-brand" id="home" onclick="load(\'/index.html\')" href="/index.html">Tự chọn món ngon</a>'
+	+		'<a class="navbar-brand" id="home" onclick="load(\'./index.html\')">Tự chọn món ngon</a>'
 	+		'<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#nav-menu" aria-controls="nav-menu" aria-expanded="false" aria-label="Toggle navigation">'
 	+			'<span class="navbar-toggler-bar"></span>'
 	+			'<span class="navbar-toggler-bar"></span>'

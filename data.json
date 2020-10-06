@@ -3,7 +3,7 @@
         {
             "id": 1,
             "type": "product",
-            "name": "Đùi gà góc tư",
+            "name": "Đùi Gà Góc Tư Phạm Tôn 300Gr",
             "price": "15000 VND",
             "img": "img/ga_1.png",
             "img1": "img/ga_1.png",
@@ -18,12 +18,14 @@
                 {
                     "id": 1,
                     "name": "Cơm gà Tam Kỳ",
-                    "description": "Món ăn làm từ gà"
+                    "description": "Món ăn làm từ gà",
+                    "img": "img/Goi_y.jpg"
                 },
                 {
                     "id": 2,
                     "name": "Cà Ri Gà",
-                    "description": "Món ăn làm từ gà"
+                    "description": "Món ăn làm từ gà",
+                    "img": "img/goi_y_2.jpg"
                 }
             ]
         },
@@ -45,12 +47,14 @@
                 {
                     "id": 1,
                     "name": "Cơm gà Tam Kỳ",
-                    "description": "Món ăn làm từ gà"
+                    "description": "Món ăn làm từ gà",
+                    "img": "img/Goi_y.jpg"
                 },
                 {
                     "id": 2,
                     "name": "Cà Ri Gà",
-                    "description": "Món ăn làm từ gà"
+                    "description": "Món ăn làm từ gà",
+                    "img": "img/goi_y_2.jpg"
                 }
             ]
         },
@@ -72,12 +76,14 @@
                 {
                     "id": 1,
                     "name": "Cơm gà Tam Kỳ",
-                    "description": "Món ăn làm từ gà"
+                    "description": "Món ăn làm từ gà",
+                    "img": "img/Goi_y.jpg"
                 },
                 {
                     "id": 2,
                     "name": "Cà Ri Gà",
-                    "description": "Món ăn làm từ gà"
+                    "description": "Món ăn làm từ gà",
+                    "img": "img/goi_y_2.jpg"
                 }
             ]
         },
@@ -99,12 +105,14 @@
                 {
                     "id": 1,
                     "name": "Cơm gà Tam Kỳ",
-                    "description": "Món ăn làm từ gà"
+                    "description": "Món ăn làm từ gà",
+                    "img": "img/Goi_y.jpg"
                 },
                 {
                     "id": 2,
                     "name": "Cà Ri Gà",
-                    "description": "Món ăn làm từ gà"
+                    "description": "Món ăn làm từ gà",
+                    "img": "img/goi_y_2.jpg"
                 }
             ]
         },
@@ -126,12 +134,14 @@
                 {
                     "id": 1,
                     "name": "Cơm gà Tam Kỳ",
-                    "description": "Món ăn làm từ gà"
+                    "description": "Món ăn làm từ gà",
+                    "img": "img/Goi_y.jpg"
                 },
                 {
                     "id": 2,
                     "name": "Cà Ri Gà",
-                    "description": "Món ăn làm từ gà"
+                    "description": "Món ăn làm từ gà",
+                    "img": "img/goi_y_2.jpg"
                 }
             ]
         },
@@ -153,12 +163,14 @@
                 {
                     "id": 1,
                     "name": "Cơm gà Tam Kỳ",
-                    "description": "Món ăn làm từ gà"
+                    "description": "Món ăn làm từ gà",
+                    "img": "img/Goi_y.jpg"
                 },
                 {
                     "id": 2,
                     "name": "Cà Ri Gà",
-                    "description": "Món ăn làm từ gà"
+                    "description": "Món ăn làm từ gà",
+                    "img": "img/goi_y_2.jpg"
                 }
             ]
         },
@@ -180,12 +192,14 @@
                 {
                     "id": 1,
                     "name": "Cơm gà Tam Kỳ",
-                    "description": "Món ăn làm từ gà"
+                    "description": "Món ăn làm từ gà",
+                    "img": "img/Goi_y.jpg"
                 },
                 {
                     "id": 2,
                     "name": "Cà Ri Gà",
-                    "description": "Món ăn làm từ gà"
+                    "description": "Món ăn làm từ gà",
+                    "img": "img/goi_y_2.jpg"
                 }
             ]
         },
@@ -207,12 +221,14 @@
                 {
                     "id": 1,
                     "name": "Cơm gà Tam Kỳ",
-                    "description": "Món ăn làm từ gà"
+                    "description": "Món ăn làm từ gà",
+                    "img": "img/Goi_y.jpg"
                 },
                 {
                     "id": 2,
                     "name": "Cà Ri Gà",
-                    "description": "Món ăn làm từ gà"
+                    "description": "Món ăn làm từ gà",
+                    "img": "img/goi_y_2.jpg"
                 }
             ]
         },

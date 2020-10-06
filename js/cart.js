@@ -7,8 +7,8 @@ function initGioHang() {
 function getAmountForCart() {
   console.log(data);
   var len = data.cart[0].menu.length + data.cart[0].product.length;
-  document.getElementById('cartAmount').innerText = len;
-  console.log(len);
+  document.getElementById('cartAmounta').innerText = len;
+  console.log('gio hang sl', len);
 };
 
 function bindDataToHTMLMyCartMenu() {
@@ -158,7 +158,7 @@ function bindDataToHTMLMyCartMenu() {
 				+							data.cart[0].menu[i].sum + '<small>VND</small>'
 				+						'</td>'
 				+						'<td class="text-center">'
-				+							'<button type="button" data-toggle="tooltip" data-placement="top" title data-original-title="Hủy món" class="btn btn-danger btn-sm" style="font-size: 1vw">Hủy món này</button>'
+				+							'<button onClick="deleteItemGH(\'menu\', '+data.cart[0].product[i].id+')" type="button" data-toggle="tooltip" data-placement="top" title data-original-title="Hủy món" class="btn btn-danger btn-sm" style="font-size: 1vw">Hủy món này</button>'
 				+						'</td>'
 				+					'</tr>'
 				+				'</tbody>'
@@ -214,7 +214,7 @@ function bindDataToHTMLMyCartProduct() {
 				+							data.cart[0].product[i].price
 				+						'</td>'
 				+						'<td class="text-center">'
-				+							'<button onClick="deleteItemGH(product, '+data.cart[0].product[i].id+')" type="button" data-toggle="tooltip" data-placement="top" title data-original-title="Hủy món" class="btn btn-danger btn-sm" style="font-size: 1vw">Hủy món này</button>'
+				+							'<button onClick="deleteItemGH(\'product\', '+data.cart[0].product[i].id+')" type="button" data-toggle="tooltip" data-placement="top" title data-original-title="Hủy món" class="btn btn-danger btn-sm" style="font-size: 1vw">Hủy món này</button>'
 				+						'</td>'
 				+					'</tr>'
         +       '</tbody>'
@@ -223,6 +223,44 @@ function bindDataToHTMLMyCartProduct() {
         +   '<br>'
       );
     }
+}
+
+function header (){
+  let mainRow = $('headera');
+  mainRow.append(
+    '<nav class="navbar navbar-expand-md bg-success fixed-top">'
+	+	'<div class="container">'
+	+		'<a class="navbar-brand" id="home" onclick="load(\'/index.html\')" href="/index.html">Tự chọn món ngon</a>'
+	+		'<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#nav-menu" aria-controls="nav-menu" aria-expanded="false" aria-label="Toggle navigation">'
+	+			'<span class="navbar-toggler-bar"></span>'
+	+			'<span class="navbar-toggler-bar"></span>'
+	+			'<span class="navbar-toggler-bar"></span>'
+	+		'</button>'
+	+		'<div class="collapse navbar-collapse" id="nav-menu">'
+	+			'<ul class="navbar-nav ml-auto">'
+	+				'<li class="nav-item">'
+	+					'<form class="form-inline">'
+	+						'<input class="form-control mr-sm-2 no-border" type="text" placeholder="Tìm kiếm">'
+	+						'<button class="btn btn-magnify btn-just-icon btn-info">'
+	+							'<i class="nc-icon nc-zoom-split"></i>'
+	+						'</button>'
+	+					'</form>'
+	+				'</li>'
+	+				'<li class="nav-item">'
+	+					'<a class="navbar-brand" href="#" >Nguyễn A</a>'
+	+				'</li>'
+	+				'<li class="nav-item">'
+	+					'<button type="button" class="btn btn-link btn-danger fixed-top" style="margin-left: 30%; padding: 0; padding-left: 57%;" onclick="load(\'./GioHang.html\')">'
+	+						'<i class="fa fa-shopping-cart shopping-cart-plus-product" style="font-size: 2vw; color: red;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i>'
+	+						'<h3 class="d-inline-block" id="cartAmount" style="margin: 0; padding-left: 30%;"></h3>'
+	+						'<script>getAmountForCart();</script>'
+	+					'</button>'
+	+				'</li>'
+	+			'</ul>'
+	+		'</div>'
+	+	'</div>'
+	+'</nav>'
+  );
 }
 
 function onReady(callback) {
@@ -255,13 +293,25 @@ function sum(){
 }
 
 function deleteItemGH(type, id){
-  console.log('du lieu xoa');
+  
   if (type == "product"){
     for (var i = 0; i < data.cart[0].product.length; i++) {
       if (data.cart[0].product[i].id == id){
-        delete data.cart[0].product[i];
+        data.cart[0].product.splice(i, 1);
       }
     }
   }
+  if (type == "menu"){
+    for (var i = 0; i < data.cart[0].menu.length; i++) {
+      if (data.cart[0].menu[i].id == id){
+        data.cart[0].menu.splice(i, 1);
+      }
+    }
+  }
+  console.log('du lieu xoa', data.cart[0]);
+  localStorage.setItem('cartData', JSON.stringify(data));
+  data = localStorage.getItem('cartData');
+  location.assign("./GioHang.html");
+  
   
 }

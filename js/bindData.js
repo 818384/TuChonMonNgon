@@ -166,7 +166,7 @@ function bindDataToHTMLDetail() {
 				+								'<h6 class="text-muted">Sep 11, 11:53 AM</h6>'
 				+								'<a href="#" class="btn btn-info btn-link pull-right"> <i class="fa fa-reply"></i> Reply</a>'
 				+							'</div>'
-				+							'<p>Sản phẩm như cái đầu puồi</p>'
+				+							'<p>Sản phẩm rất tốt, đồ ăn tươi sạch</p>'
 				+							'<div class="media-footer">'
 				+								'<a href="#" class="btn btn-danger btn-link">'
 				+									'<i class="fa fa-thumbs-up" aria-hidden="true"></i> 50'
